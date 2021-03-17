@@ -12,8 +12,9 @@ public class Deporte {
         this.nombre = nombre;
     }
 
-    public int getNombre (){
+    public String getNombre () {
         return this.nombre;
+    }
 
 
     public void setJugadores (int jugadores){
@@ -40,6 +41,5 @@ public class Deporte {
     public int getTiempo (){
         return this.tiempo;
     }
-
 
 }
